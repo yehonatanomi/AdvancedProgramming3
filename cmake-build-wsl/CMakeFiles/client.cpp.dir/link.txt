@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/client.cpp.dir/x/distanceN.cpp.o CMakeFiles/client.cpp.dir/x/flower.cpp.o CMakeFiles/client.cpp.dir/x/Knn.cpp.o CMakeFiles/client.cpp.dir/x/pointS.cpp.o CMakeFiles/client.cpp.dir/utils.cpp.o CMakeFiles/client.cpp.dir/SocketIO.cpp.o CMakeFiles/client.cpp.dir/StandardIO.cpp.o  -o client.cpp 
