@@ -130,6 +130,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/DefaultIO.h">
+			<Option target="client"/>
+		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/client.cpp">
 			<Option target="client"/>
 		</Unit>
