@@ -146,6 +146,27 @@ build CMakeFiles/client.dir/x/pointS.cpp.obj: CXX_COMPILER__client_Debug C$:/yon
   OBJECT_DIR = CMakeFiles\client.dir
   OBJECT_FILE_DIR = CMakeFiles\client.dir\x
 
+build CMakeFiles/client.dir/utils.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/utils.cpp || cmake_object_order_depends_target_client
+  DEP_FILE = CMakeFiles\client.dir\utils.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  OBJECT_DIR = CMakeFiles\client.dir
+  OBJECT_FILE_DIR = CMakeFiles\client.dir
+
+build CMakeFiles/client.dir/SocketIO.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/SocketIO.cpp || cmake_object_order_depends_target_client
+  DEP_FILE = CMakeFiles\client.dir\SocketIO.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  OBJECT_DIR = CMakeFiles\client.dir
+  OBJECT_FILE_DIR = CMakeFiles\client.dir
+
+build CMakeFiles/client.dir/StandardIO.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/StandardIO.cpp || cmake_object_order_depends_target_client
+  DEP_FILE = CMakeFiles\client.dir\StandardIO.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  OBJECT_DIR = CMakeFiles\client.dir
+  OBJECT_FILE_DIR = CMakeFiles\client.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target client
@@ -154,7 +175,7 @@ build CMakeFiles/client.dir/x/pointS.cpp.obj: CXX_COMPILER__client_Debug C$:/yon
 #############################################
 # Link the executable client.exe
 
-build client.exe: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/client.cpp.obj CMakeFiles/client.dir/x/distanceN.cpp.obj CMakeFiles/client.dir/x/flower.cpp.obj CMakeFiles/client.dir/x/Knn.cpp.obj CMakeFiles/client.dir/x/pointS.cpp.obj
+build client.exe: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/client.cpp.obj CMakeFiles/client.dir/x/distanceN.cpp.obj CMakeFiles/client.dir/x/flower.cpp.obj CMakeFiles/client.dir/x/Knn.cpp.obj CMakeFiles/client.dir/x/pointS.cpp.obj CMakeFiles/client.dir/utils.cpp.obj CMakeFiles/client.dir/SocketIO.cpp.obj CMakeFiles/client.dir/StandardIO.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\client.dir

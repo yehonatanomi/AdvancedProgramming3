@@ -133,11 +133,29 @@
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/DefaultIO.h">
 			<Option target="client"/>
 		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/SocketIO.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/SocketIO.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/StandardIO.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/StandardIO.h">
+			<Option target="client"/>
+		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/client.cpp">
 			<Option target="client"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/server.cpp">
 			<Option target="server"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/utils.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/utils.h">
+			<Option target="client"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/x/Knn.cpp">
 			<Option target="client"/>
