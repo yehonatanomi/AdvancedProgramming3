@@ -49,40 +49,68 @@ cmake_ninja_workdir = C$:/yoniP/AdvancedProgramming3/cmake-build-debug/
 
 build cmake_object_order_depends_target_server: phony || CMakeFiles/server.dir
 
-build CMakeFiles/server.dir/server/server.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/server/server.cpp || cmake_object_order_depends_target_server
-  DEP_FILE = CMakeFiles\server.dir\server\server.cpp.obj.d
+build CMakeFiles/server.dir/Server/mainS.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/Server/mainS.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles\server.dir\Server\mainS.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
   OBJECT_DIR = CMakeFiles\server.dir
-  OBJECT_FILE_DIR = CMakeFiles\server.dir\server
+  OBJECT_FILE_DIR = CMakeFiles\server.dir\Server
+
+build CMakeFiles/server.dir/Server/Tserver.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/Server/Tserver.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles\server.dir\Server\Tserver.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
+  OBJECT_DIR = CMakeFiles\server.dir
+  OBJECT_FILE_DIR = CMakeFiles\server.dir\Server
 
 build CMakeFiles/server.dir/x/distanceN.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/x/distanceN.cpp || cmake_object_order_depends_target_server
   DEP_FILE = CMakeFiles\server.dir\x\distanceN.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
   OBJECT_DIR = CMakeFiles\server.dir
   OBJECT_FILE_DIR = CMakeFiles\server.dir\x
 
 build CMakeFiles/server.dir/x/flower.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/x/flower.cpp || cmake_object_order_depends_target_server
   DEP_FILE = CMakeFiles\server.dir\x\flower.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
   OBJECT_DIR = CMakeFiles\server.dir
   OBJECT_FILE_DIR = CMakeFiles\server.dir\x
 
 build CMakeFiles/server.dir/x/Knn.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/x/Knn.cpp || cmake_object_order_depends_target_server
   DEP_FILE = CMakeFiles\server.dir\x\Knn.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
   OBJECT_DIR = CMakeFiles\server.dir
   OBJECT_FILE_DIR = CMakeFiles\server.dir\x
 
 build CMakeFiles/server.dir/x/pointS.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/x/pointS.cpp || cmake_object_order_depends_target_server
   DEP_FILE = CMakeFiles\server.dir\x\pointS.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
   OBJECT_DIR = CMakeFiles\server.dir
   OBJECT_FILE_DIR = CMakeFiles\server.dir\x
+
+build CMakeFiles/server.dir/Server/IO/SocketIO.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/Server/IO/SocketIO.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles\server.dir\Server\IO\SocketIO.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
+  OBJECT_DIR = CMakeFiles\server.dir
+  OBJECT_FILE_DIR = CMakeFiles\server.dir\Server\IO
+
+build CMakeFiles/server.dir/Server/IO/StandardIO.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/Server/IO/StandardIO.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles\server.dir\Server\IO\StandardIO.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
+  OBJECT_DIR = CMakeFiles\server.dir
+  OBJECT_FILE_DIR = CMakeFiles\server.dir\Server\IO
+
+build CMakeFiles/server.dir/tools.cpp.obj: CXX_COMPILER__server_Debug C$:/yoniP/AdvancedProgramming3/tools.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles\server.dir\tools.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
+  OBJECT_DIR = CMakeFiles\server.dir
+  OBJECT_FILE_DIR = CMakeFiles\server.dir
 
 
 # =============================================================================
@@ -92,7 +120,7 @@ build CMakeFiles/server.dir/x/pointS.cpp.obj: CXX_COMPILER__server_Debug C$:/yon
 #############################################
 # Link the executable server.exe
 
-build server.exe: CXX_EXECUTABLE_LINKER__server_Debug CMakeFiles/server.dir/server/server.cpp.obj CMakeFiles/server.dir/x/distanceN.cpp.obj CMakeFiles/server.dir/x/flower.cpp.obj CMakeFiles/server.dir/x/Knn.cpp.obj CMakeFiles/server.dir/x/pointS.cpp.obj
+build server.exe: CXX_EXECUTABLE_LINKER__server_Debug CMakeFiles/server.dir/Server/mainS.cpp.obj CMakeFiles/server.dir/Server/Tserver.cpp.obj CMakeFiles/server.dir/x/distanceN.cpp.obj CMakeFiles/server.dir/x/flower.cpp.obj CMakeFiles/server.dir/x/Knn.cpp.obj CMakeFiles/server.dir/x/pointS.cpp.obj CMakeFiles/server.dir/Server/IO/SocketIO.cpp.obj CMakeFiles/server.dir/Server/IO/StandardIO.cpp.obj CMakeFiles/server.dir/tools.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\server.dir
@@ -111,61 +139,19 @@ build server.exe: CXX_EXECUTABLE_LINKER__server_Debug CMakeFiles/server.dir/serv
 
 build cmake_object_order_depends_target_client: phony || CMakeFiles/client.dir
 
-build CMakeFiles/client.dir/client/client.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/client/client.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles\client.dir\client\client.cpp.obj.d
+build CMakeFiles/client.dir/Client/mainC.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/Client/mainC.cpp || cmake_object_order_depends_target_client
+  DEP_FILE = CMakeFiles\client.dir\Client\mainC.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
   OBJECT_DIR = CMakeFiles\client.dir
-  OBJECT_FILE_DIR = CMakeFiles\client.dir\client
+  OBJECT_FILE_DIR = CMakeFiles\client.dir\Client
 
-build CMakeFiles/client.dir/x/distanceN.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/x/distanceN.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles\client.dir\x\distanceN.cpp.obj.d
+build CMakeFiles/client.dir/Client/Tclient.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/Client/Tclient.cpp || cmake_object_order_depends_target_client
+  DEP_FILE = CMakeFiles\client.dir\Client\Tclient.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
+  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x -IC:/yoniP/AdvancedProgramming3/Server -IC:/yoniP/AdvancedProgramming3/Client -IC:/yoniP/AdvancedProgramming3/Server/IO
   OBJECT_DIR = CMakeFiles\client.dir
-  OBJECT_FILE_DIR = CMakeFiles\client.dir\x
-
-build CMakeFiles/client.dir/x/flower.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/x/flower.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles\client.dir\x\flower.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
-  OBJECT_DIR = CMakeFiles\client.dir
-  OBJECT_FILE_DIR = CMakeFiles\client.dir\x
-
-build CMakeFiles/client.dir/x/Knn.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/x/Knn.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles\client.dir\x\Knn.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
-  OBJECT_DIR = CMakeFiles\client.dir
-  OBJECT_FILE_DIR = CMakeFiles\client.dir\x
-
-build CMakeFiles/client.dir/x/pointS.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/x/pointS.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles\client.dir\x\pointS.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
-  OBJECT_DIR = CMakeFiles\client.dir
-  OBJECT_FILE_DIR = CMakeFiles\client.dir\x
-
-build CMakeFiles/client.dir/utils.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/utils.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles\client.dir\utils.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
-  OBJECT_DIR = CMakeFiles\client.dir
-  OBJECT_FILE_DIR = CMakeFiles\client.dir
-
-build CMakeFiles/client.dir/SocketIO.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/SocketIO.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles\client.dir\SocketIO.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
-  OBJECT_DIR = CMakeFiles\client.dir
-  OBJECT_FILE_DIR = CMakeFiles\client.dir
-
-build CMakeFiles/client.dir/StandardIO.cpp.obj: CXX_COMPILER__client_Debug C$:/yoniP/AdvancedProgramming3/StandardIO.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles\client.dir\StandardIO.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/yoniP/AdvancedProgramming3/x
-  OBJECT_DIR = CMakeFiles\client.dir
-  OBJECT_FILE_DIR = CMakeFiles\client.dir
+  OBJECT_FILE_DIR = CMakeFiles\client.dir\Client
 
 
 # =============================================================================
@@ -175,7 +161,7 @@ build CMakeFiles/client.dir/StandardIO.cpp.obj: CXX_COMPILER__client_Debug C$:/y
 #############################################
 # Link the executable client.exe
 
-build client.exe: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/client/client.cpp.obj CMakeFiles/client.dir/x/distanceN.cpp.obj CMakeFiles/client.dir/x/flower.cpp.obj CMakeFiles/client.dir/x/Knn.cpp.obj CMakeFiles/client.dir/x/pointS.cpp.obj CMakeFiles/client.dir/utils.cpp.obj CMakeFiles/client.dir/SocketIO.cpp.obj CMakeFiles/client.dir/StandardIO.cpp.obj
+build client.exe: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/Client/mainC.cpp.obj CMakeFiles/client.dir/Client/Tclient.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\client.dir

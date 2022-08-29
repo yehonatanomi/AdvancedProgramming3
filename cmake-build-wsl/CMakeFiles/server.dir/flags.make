@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/yoniP/AdvancedProgramming3/x 
+CXX_INCLUDES = -I/mnt/c/yoniP/AdvancedProgramming3/x -I/mnt/c/yoniP/AdvancedProgramming3/Server -I/mnt/c/yoniP/AdvancedProgramming3/Client -I/mnt/c/yoniP/AdvancedProgramming3/Server/IO 
 

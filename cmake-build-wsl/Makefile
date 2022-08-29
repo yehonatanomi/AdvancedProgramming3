@@ -156,140 +156,194 @@ server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
-SocketIO.o: SocketIO.cpp.o
+Client/Tclient.o: Client/Tclient.cpp.o
 
-.PHONY : SocketIO.o
-
-# target to build an object file
-SocketIO.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/SocketIO.cpp.o
-.PHONY : SocketIO.cpp.o
-
-SocketIO.i: SocketIO.cpp.i
-
-.PHONY : SocketIO.i
-
-# target to preprocess a source file
-SocketIO.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/SocketIO.cpp.i
-.PHONY : SocketIO.cpp.i
-
-SocketIO.s: SocketIO.cpp.s
-
-.PHONY : SocketIO.s
-
-# target to generate assembly for a file
-SocketIO.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/SocketIO.cpp.s
-.PHONY : SocketIO.cpp.s
-
-StandardIO.o: StandardIO.cpp.o
-
-.PHONY : StandardIO.o
+.PHONY : Client/Tclient.o
 
 # target to build an object file
-StandardIO.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/StandardIO.cpp.o
-.PHONY : StandardIO.cpp.o
+Client/Tclient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Client/Tclient.cpp.o
+.PHONY : Client/Tclient.cpp.o
 
-StandardIO.i: StandardIO.cpp.i
+Client/Tclient.i: Client/Tclient.cpp.i
 
-.PHONY : StandardIO.i
+.PHONY : Client/Tclient.i
 
 # target to preprocess a source file
-StandardIO.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/StandardIO.cpp.i
-.PHONY : StandardIO.cpp.i
+Client/Tclient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Client/Tclient.cpp.i
+.PHONY : Client/Tclient.cpp.i
 
-StandardIO.s: StandardIO.cpp.s
+Client/Tclient.s: Client/Tclient.cpp.s
 
-.PHONY : StandardIO.s
+.PHONY : Client/Tclient.s
 
 # target to generate assembly for a file
-StandardIO.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/StandardIO.cpp.s
-.PHONY : StandardIO.cpp.s
+Client/Tclient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Client/Tclient.cpp.s
+.PHONY : Client/Tclient.cpp.s
 
-client/client.o: client/client.cpp.o
+Client/mainC.o: Client/mainC.cpp.o
 
-.PHONY : client/client.o
+.PHONY : Client/mainC.o
 
 # target to build an object file
-client/client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cpp.o
-.PHONY : client/client.cpp.o
+Client/mainC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Client/mainC.cpp.o
+.PHONY : Client/mainC.cpp.o
 
-client/client.i: client/client.cpp.i
+Client/mainC.i: Client/mainC.cpp.i
 
-.PHONY : client/client.i
+.PHONY : Client/mainC.i
 
 # target to preprocess a source file
-client/client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cpp.i
-.PHONY : client/client.cpp.i
+Client/mainC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Client/mainC.cpp.i
+.PHONY : Client/mainC.cpp.i
 
-client/client.s: client/client.cpp.s
+Client/mainC.s: Client/mainC.cpp.s
 
-.PHONY : client/client.s
+.PHONY : Client/mainC.s
 
 # target to generate assembly for a file
-client/client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cpp.s
-.PHONY : client/client.cpp.s
+Client/mainC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Client/mainC.cpp.s
+.PHONY : Client/mainC.cpp.s
 
-server/server.o: server/server.cpp.o
+Server/IO/SocketIO.o: Server/IO/SocketIO.cpp.o
 
-.PHONY : server/server.o
+.PHONY : Server/IO/SocketIO.o
 
 # target to build an object file
-server/server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/server.cpp.o
-.PHONY : server/server.cpp.o
+Server/IO/SocketIO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/IO/SocketIO.cpp.o
+.PHONY : Server/IO/SocketIO.cpp.o
 
-server/server.i: server/server.cpp.i
+Server/IO/SocketIO.i: Server/IO/SocketIO.cpp.i
 
-.PHONY : server/server.i
+.PHONY : Server/IO/SocketIO.i
 
 # target to preprocess a source file
-server/server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/server.cpp.i
-.PHONY : server/server.cpp.i
+Server/IO/SocketIO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/IO/SocketIO.cpp.i
+.PHONY : Server/IO/SocketIO.cpp.i
 
-server/server.s: server/server.cpp.s
+Server/IO/SocketIO.s: Server/IO/SocketIO.cpp.s
 
-.PHONY : server/server.s
+.PHONY : Server/IO/SocketIO.s
 
 # target to generate assembly for a file
-server/server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server/server.cpp.s
-.PHONY : server/server.cpp.s
+Server/IO/SocketIO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/IO/SocketIO.cpp.s
+.PHONY : Server/IO/SocketIO.cpp.s
 
-utils.o: utils.cpp.o
+Server/IO/StandardIO.o: Server/IO/StandardIO.cpp.o
 
-.PHONY : utils.o
+.PHONY : Server/IO/StandardIO.o
 
 # target to build an object file
-utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utils.cpp.o
-.PHONY : utils.cpp.o
+Server/IO/StandardIO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/IO/StandardIO.cpp.o
+.PHONY : Server/IO/StandardIO.cpp.o
 
-utils.i: utils.cpp.i
+Server/IO/StandardIO.i: Server/IO/StandardIO.cpp.i
 
-.PHONY : utils.i
+.PHONY : Server/IO/StandardIO.i
 
 # target to preprocess a source file
-utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utils.cpp.i
-.PHONY : utils.cpp.i
+Server/IO/StandardIO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/IO/StandardIO.cpp.i
+.PHONY : Server/IO/StandardIO.cpp.i
 
-utils.s: utils.cpp.s
+Server/IO/StandardIO.s: Server/IO/StandardIO.cpp.s
 
-.PHONY : utils.s
+.PHONY : Server/IO/StandardIO.s
 
 # target to generate assembly for a file
-utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utils.cpp.s
-.PHONY : utils.cpp.s
+Server/IO/StandardIO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/IO/StandardIO.cpp.s
+.PHONY : Server/IO/StandardIO.cpp.s
+
+Server/Tserver.o: Server/Tserver.cpp.o
+
+.PHONY : Server/Tserver.o
+
+# target to build an object file
+Server/Tserver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/Tserver.cpp.o
+.PHONY : Server/Tserver.cpp.o
+
+Server/Tserver.i: Server/Tserver.cpp.i
+
+.PHONY : Server/Tserver.i
+
+# target to preprocess a source file
+Server/Tserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/Tserver.cpp.i
+.PHONY : Server/Tserver.cpp.i
+
+Server/Tserver.s: Server/Tserver.cpp.s
+
+.PHONY : Server/Tserver.s
+
+# target to generate assembly for a file
+Server/Tserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/Tserver.cpp.s
+.PHONY : Server/Tserver.cpp.s
+
+Server/mainS.o: Server/mainS.cpp.o
+
+.PHONY : Server/mainS.o
+
+# target to build an object file
+Server/mainS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/mainS.cpp.o
+.PHONY : Server/mainS.cpp.o
+
+Server/mainS.i: Server/mainS.cpp.i
+
+.PHONY : Server/mainS.i
+
+# target to preprocess a source file
+Server/mainS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/mainS.cpp.i
+.PHONY : Server/mainS.cpp.i
+
+Server/mainS.s: Server/mainS.cpp.s
+
+.PHONY : Server/mainS.s
+
+# target to generate assembly for a file
+Server/mainS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/Server/mainS.cpp.s
+.PHONY : Server/mainS.cpp.s
+
+tools.o: tools.cpp.o
+
+.PHONY : tools.o
+
+# target to build an object file
+tools.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/tools.cpp.o
+.PHONY : tools.cpp.o
+
+tools.i: tools.cpp.i
+
+.PHONY : tools.i
+
+# target to preprocess a source file
+tools.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/tools.cpp.i
+.PHONY : tools.cpp.i
+
+tools.s: tools.cpp.s
+
+.PHONY : tools.s
+
+# target to generate assembly for a file
+tools.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/tools.cpp.s
+.PHONY : tools.cpp.s
 
 x/Knn.o: x/Knn.cpp.o
 
@@ -297,7 +351,6 @@ x/Knn.o: x/Knn.cpp.o
 
 # target to build an object file
 x/Knn.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/Knn.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/Knn.cpp.o
 .PHONY : x/Knn.cpp.o
 
@@ -307,7 +360,6 @@ x/Knn.i: x/Knn.cpp.i
 
 # target to preprocess a source file
 x/Knn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/Knn.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/Knn.cpp.i
 .PHONY : x/Knn.cpp.i
 
@@ -317,7 +369,6 @@ x/Knn.s: x/Knn.cpp.s
 
 # target to generate assembly for a file
 x/Knn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/Knn.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/Knn.cpp.s
 .PHONY : x/Knn.cpp.s
 
@@ -327,7 +378,6 @@ x/distanceN.o: x/distanceN.cpp.o
 
 # target to build an object file
 x/distanceN.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/distanceN.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/distanceN.cpp.o
 .PHONY : x/distanceN.cpp.o
 
@@ -337,7 +387,6 @@ x/distanceN.i: x/distanceN.cpp.i
 
 # target to preprocess a source file
 x/distanceN.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/distanceN.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/distanceN.cpp.i
 .PHONY : x/distanceN.cpp.i
 
@@ -347,7 +396,6 @@ x/distanceN.s: x/distanceN.cpp.s
 
 # target to generate assembly for a file
 x/distanceN.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/distanceN.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/distanceN.cpp.s
 .PHONY : x/distanceN.cpp.s
 
@@ -357,7 +405,6 @@ x/flower.o: x/flower.cpp.o
 
 # target to build an object file
 x/flower.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/flower.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/flower.cpp.o
 .PHONY : x/flower.cpp.o
 
@@ -367,7 +414,6 @@ x/flower.i: x/flower.cpp.i
 
 # target to preprocess a source file
 x/flower.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/flower.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/flower.cpp.i
 .PHONY : x/flower.cpp.i
 
@@ -377,7 +423,6 @@ x/flower.s: x/flower.cpp.s
 
 # target to generate assembly for a file
 x/flower.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/flower.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/flower.cpp.s
 .PHONY : x/flower.cpp.s
 
@@ -387,7 +432,6 @@ x/pointS.o: x/pointS.cpp.o
 
 # target to build an object file
 x/pointS.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/pointS.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/pointS.cpp.o
 .PHONY : x/pointS.cpp.o
 
@@ -397,7 +441,6 @@ x/pointS.i: x/pointS.cpp.i
 
 # target to preprocess a source file
 x/pointS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/pointS.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/pointS.cpp.i
 .PHONY : x/pointS.cpp.i
 
@@ -407,7 +450,6 @@ x/pointS.s: x/pointS.cpp.s
 
 # target to generate assembly for a file
 x/pointS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/x/pointS.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/x/pointS.cpp.s
 .PHONY : x/pointS.cpp.s
 
@@ -421,21 +463,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... client"
 	@echo "... server"
-	@echo "... SocketIO.o"
-	@echo "... SocketIO.i"
-	@echo "... SocketIO.s"
-	@echo "... StandardIO.o"
-	@echo "... StandardIO.i"
-	@echo "... StandardIO.s"
-	@echo "... client/client.o"
-	@echo "... client/client.i"
-	@echo "... client/client.s"
-	@echo "... server/server.o"
-	@echo "... server/server.i"
-	@echo "... server/server.s"
-	@echo "... utils.o"
-	@echo "... utils.i"
-	@echo "... utils.s"
+	@echo "... Client/Tclient.o"
+	@echo "... Client/Tclient.i"
+	@echo "... Client/Tclient.s"
+	@echo "... Client/mainC.o"
+	@echo "... Client/mainC.i"
+	@echo "... Client/mainC.s"
+	@echo "... Server/IO/SocketIO.o"
+	@echo "... Server/IO/SocketIO.i"
+	@echo "... Server/IO/SocketIO.s"
+	@echo "... Server/IO/StandardIO.o"
+	@echo "... Server/IO/StandardIO.i"
+	@echo "... Server/IO/StandardIO.s"
+	@echo "... Server/Tserver.o"
+	@echo "... Server/Tserver.i"
+	@echo "... Server/Tserver.s"
+	@echo "... Server/mainS.o"
+	@echo "... Server/mainS.i"
+	@echo "... Server/mainS.s"
+	@echo "... tools.o"
+	@echo "... tools.i"
+	@echo "... tools.s"
 	@echo "... x/Knn.o"
 	@echo "... x/Knn.i"
 	@echo "... x/Knn.s"

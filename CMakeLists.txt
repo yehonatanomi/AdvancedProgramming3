@@ -4,6 +4,8 @@ project(server)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(x)
-
-add_executable(server server/server.cpp x/distanceN.cpp x/flower.cpp x/Knn.cpp x/pointS.cpp )
-add_executable(client client/client.cpp x/distanceN.cpp x/flower.cpp x/Knn.cpp x/pointS.cpp DefaultIO.h utils.cpp utils.h SocketIO.cpp SocketIO.h StandardIO.cpp StandardIO.h)
+include_directories(Server)
+include_directories(Client)
+include_directories(Server/IO)
+add_executable(server Server/mainS.cpp Server/Tserver.cpp Server/Tserver.h x/distanceN.cpp x/flower.cpp x/Knn.cpp x/pointS.cpp Server/IO/DefaultIO.h Server/IO/SocketIO.cpp Server/IO/SocketIO.h Server/IO/StandardIO.cpp Server/IO/StandardIO.h tools.cpp tools.h)
+add_executable(client Client/mainC.cpp Client/Tclient.cpp Client/Tclient.h)

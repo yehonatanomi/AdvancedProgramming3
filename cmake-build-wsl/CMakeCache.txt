@@ -15,6 +15,18 @@
 ########################
 
 //Value Computed by CMake
+1_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
+
+//Value Computed by CMake
+1_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+2_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
+
+//Value Computed by CMake
+2_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
 AdvancedProgramming3_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
 
 //Value Computed by CMake
@@ -226,6 +238,12 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+Client_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
+
+//Value Computed by CMake
+Client_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
+
 //Path to a program.
 ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 
@@ -233,10 +251,46 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
+Server_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
+
+//Value Computed by CMake
+Server_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+c_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
+
+//Value Computed by CMake
+c_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+client1_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
+
+//Value Computed by CMake
+client1_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
 client_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
 
 //Value Computed by CMake
 client_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+clientlient_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
+
+//Value Computed by CMake
+clientlient_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+s_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
+
+//Value Computed by CMake
+s_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+server1_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl
+
+//Value Computed by CMake
+server1_SOURCE_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3
 
 //Value Computed by CMake
 server_BINARY_DIR:STATIC=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl

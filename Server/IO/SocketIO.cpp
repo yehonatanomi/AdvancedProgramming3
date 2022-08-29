@@ -1,16 +1,16 @@
 #include "SocketIO.h"
 #include "string"
-#include "utils.h"
+#include "../tools.h"
 #include <unistd.h>
 
 SocketIO::SocketIO(int socket) : socket(socket) {}
 
 std::string SocketIO::read() {
-    return utils::recv(this->socket);
+    return tools::recv(this->socket);
 }
 
 void SocketIO::send(std::string msg) {
-    utils::send(this->socket, msg);
+    tools::send(this->socket, msg);
 }
 
 SocketIO::~SocketIO() {

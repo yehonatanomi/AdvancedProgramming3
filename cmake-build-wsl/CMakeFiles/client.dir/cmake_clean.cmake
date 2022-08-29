@@ -1,12 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/client.dir/SocketIO.cpp.o"
-  "CMakeFiles/client.dir/StandardIO.cpp.o"
-  "CMakeFiles/client.dir/client/client.cpp.o"
-  "CMakeFiles/client.dir/utils.cpp.o"
-  "CMakeFiles/client.dir/x/Knn.cpp.o"
-  "CMakeFiles/client.dir/x/distanceN.cpp.o"
-  "CMakeFiles/client.dir/x/flower.cpp.o"
-  "CMakeFiles/client.dir/x/pointS.cpp.o"
+  "CMakeFiles/client.dir/Client/Tclient.cpp.o"
+  "CMakeFiles/client.dir/Client/mainC.cpp.o"
   "client"
   "client.pdb"
 )

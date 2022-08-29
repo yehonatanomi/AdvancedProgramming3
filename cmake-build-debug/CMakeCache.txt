@@ -15,6 +15,24 @@
 ########################
 
 //Value Computed by CMake
+1_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
+
+//Value Computed by CMake
+1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+1_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+2_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
+
+//Value Computed by CMake
+2_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+2_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
 AdvancedProgramming3_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
 
 //Value Computed by CMake
@@ -243,6 +261,42 @@ CMAKE_STRIP:FILEPATH=C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+Client_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
+
+//Value Computed by CMake
+Client_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Client_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+Server_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
+
+//Value Computed by CMake
+Server_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Server_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+c_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
+
+//Value Computed by CMake
+c_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+c_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+client1_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
+
+//Value Computed by CMake
+client1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+client1_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
 client_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
 
 //Value Computed by CMake
@@ -252,6 +306,15 @@ client_IS_TOP_LEVEL:STATIC=ON
 client_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
 
 //Value Computed by CMake
+clientlient_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
+
+//Value Computed by CMake
+clientlient_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+clientlient_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
 s_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
 
 //Value Computed by CMake
@@ -259,6 +322,15 @@ s_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 s_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
+
+//Value Computed by CMake
+server1_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug
+
+//Value Computed by CMake
+server1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+server1_SOURCE_DIR:STATIC=C:/yoniP/AdvancedProgramming3
 
 //Value Computed by CMake
 server_BINARY_DIR:STATIC=C:/yoniP/AdvancedProgramming3/cmake-build-debug

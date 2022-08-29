@@ -2,14 +2,14 @@
 // Created by yehonatan on 8/29/2022.
 //
 
-#ifndef SERVER_UTILS_H
-#define SERVER_UTILS_H
+#ifndef SERVER_TOOLS_H
+#define SERVER_TOOLS_H
 
 
-#include "vector"
-#include "string"
+#include <vector>
+#include <string>
 
-namespace utils {
+namespace tools {
     std::string readFile(const std::string &);
 
     std::vector<std::vector<std::string>> readCSV(const std::string &);
@@ -23,4 +23,5 @@ namespace utils {
     void send(int, const std::string &);
 }
 
-#endif //SERVER_UTILS_H
+
+#endif //SERVER_TOOLS_H

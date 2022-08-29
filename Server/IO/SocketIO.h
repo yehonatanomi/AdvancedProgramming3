@@ -1,5 +1,4 @@
 #include "DefaultIO.h"
-#include "../TCPServer.h"
 #include "string"
 
 #ifndef TESTING_SOCKETIO_H

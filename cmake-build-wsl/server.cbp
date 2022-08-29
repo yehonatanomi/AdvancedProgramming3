@@ -45,6 +45,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/x"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Server"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Client"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Server/IO"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -68,6 +71,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/x"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Server"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Client"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Server/IO"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -91,6 +97,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/x"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Server"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Client"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Server/IO"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -114,6 +123,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/x"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Server"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Client"/>
+					<Add directory="/mnt/c/yoniP/AdvancedProgramming3/Server/IO"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -130,63 +142,67 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/DefaultIO.h">
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Client/Tclient.cpp">
 			<Option target="client"/>
 		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/SocketIO.cpp">
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Client/Tclient.h">
 			<Option target="client"/>
 		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/SocketIO.h">
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Client/mainC.cpp">
 			<Option target="client"/>
 		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/StandardIO.cpp">
-			<Option target="client"/>
-		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/StandardIO.h">
-			<Option target="client"/>
-		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/client/client.cpp">
-			<Option target="client"/>
-		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/server/server.cpp">
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Server/IO/DefaultIO.h">
 			<Option target="server"/>
 		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/utils.cpp">
-			<Option target="client"/>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Server/IO/SocketIO.cpp">
+			<Option target="server"/>
 		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/utils.h">
-			<Option target="client"/>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Server/IO/SocketIO.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Server/IO/StandardIO.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Server/IO/StandardIO.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Server/Tserver.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Server/Tserver.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/Server/mainS.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/tools.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/tools.h">
+			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/x/Knn.cpp">
-			<Option target="client"/>
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/x/Knn.h">
-			<Option target="client"/>
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/x/distanceN.cpp">
-			<Option target="client"/>
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/x/distanceN.h">
-			<Option target="client"/>
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/x/flower.cpp">
-			<Option target="client"/>
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/x/flower.h">
-			<Option target="client"/>
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/x/pointS.cpp">
-			<Option target="client"/>
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/x/pointS.h">
-			<Option target="client"/>
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/CMakeLists.txt">
