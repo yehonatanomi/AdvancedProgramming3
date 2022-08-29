@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/yoniP/AdvancedProgramming3/SocketIO.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/client.dir/SocketIO.cpp.o"
   "/mnt/c/yoniP/AdvancedProgramming3/StandardIO.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/client.dir/StandardIO.cpp.o"
-  "/mnt/c/yoniP/AdvancedProgramming3/client.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/client.dir/client.cpp.o"
+  "/mnt/c/yoniP/AdvancedProgramming3/client/client.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/client.dir/client/client.cpp.o"
   "/mnt/c/yoniP/AdvancedProgramming3/utils.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/client.dir/utils.cpp.o"
   "/mnt/c/yoniP/AdvancedProgramming3/x/Knn.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/client.dir/x/Knn.cpp.o"
   "/mnt/c/yoniP/AdvancedProgramming3/x/distanceN.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/client.dir/x/distanceN.cpp.o"

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/yoniP/AdvancedProgramming3/server.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/server.dir/server.cpp.o"
+  "/mnt/c/yoniP/AdvancedProgramming3/server/server.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/server.dir/server/server.cpp.o"
   "/mnt/c/yoniP/AdvancedProgramming3/x/Knn.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/server.dir/x/Knn.cpp.o"
   "/mnt/c/yoniP/AdvancedProgramming3/x/distanceN.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/server.dir/x/distanceN.cpp.o"
   "/mnt/c/yoniP/AdvancedProgramming3/x/flower.cpp" "/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/server.dir/x/flower.cpp.o"

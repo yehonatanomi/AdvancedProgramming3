@@ -145,10 +145,10 @@
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/StandardIO.h">
 			<Option target="client"/>
 		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/client.cpp">
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/client/client.cpp">
 			<Option target="client"/>
 		</Unit>
-		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/server.cpp">
+		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/server/server.cpp">
 			<Option target="server"/>
 		</Unit>
 		<Unit filename="/mnt/c/yoniP/AdvancedProgramming3/utils.cpp">

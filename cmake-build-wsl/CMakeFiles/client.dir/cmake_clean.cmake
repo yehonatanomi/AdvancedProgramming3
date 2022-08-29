@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/client.dir/SocketIO.cpp.o"
   "CMakeFiles/client.dir/StandardIO.cpp.o"
-  "CMakeFiles/client.dir/client.cpp.o"
+  "CMakeFiles/client.dir/client/client.cpp.o"
   "CMakeFiles/client.dir/utils.cpp.o"
   "CMakeFiles/client.dir/x/Knn.cpp.o"
   "CMakeFiles/client.dir/x/distanceN.cpp.o"

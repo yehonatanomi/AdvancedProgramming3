@@ -5,27 +5,25 @@
 #include <cstring>
 #include <regex>
 
-
+using namespace std;
 namespace utils {
-    std::string readFile(const std::string &path) {
-        std::ifstream fin(path);
-        if (!fin.is_open()) throw std::runtime_error("Could not open file");
-
-        std::stringstream out;
+    string readFile(const string &path) {
+        ifstream fin(path);
+        if (!fin.is_open()) throw runtime_error("file not  open");
+       stringstream out;
         out << fin.rdbuf();
         return out.str();
     }
 
     // Read a csv file and return a matrix of its lines
-    std::vector<std::vector<std::string>> readCSV(const std::string &path) {
-        std::string csv = readFile(path);
-
-        std::vector<std::vector<std::string>> data;
+   vector<vector<string>> readCSV(const std::string &path) {
+        string csv = readFile(path);
+        vector<vector<string>> data;
 
         for (const auto &line: split(csv, '\n')) {
-            std::stringstream ss(line);
+            stringstream ss(line);
 
-            std::vector<std::string> row = split(line, ',');
+            vector<string> row = split(line, ',');
             if (!row.empty())
                 data.push_back(row);
         }
@@ -34,26 +32,26 @@ namespace utils {
     }
 
     // Write to a csv file
-    void writeFile(const std::string &path, const std::string &content) {
-        std::ofstream fout(path);
+    void writeFile(const string &path, const string &content) {
+        ofstream fout(path);
         fout << content;
     }
 
-    std::vector<std::string> split(const std::string &s, const char c) {
-        std::stringstream ss(s);
-        std::string cell;
+   vector<string> split(const string &s, const char c) {
+       stringstream ss(s);
+        string cell;
 
-        std::vector<std::string> v;
-        while (std::getline(ss, cell, c)) {
+        vector<string> v;
+        while (getline(ss, cell, c)) {
             v.push_back(cell);
         }
         return v;
     }
 
     //Receive from the socket
-    std::string recv(int sock) {
-        std::string msg;
-        std::string ending = "<end>";
+   string recv(int sock) {
+        string msg;
+         string ending = "<end>";
         //Read until ending is detected
         char buffer[1];
         while (!std::equal(ending.rbegin(), ending.rend(), msg.rbegin())) {

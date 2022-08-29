@@ -12,7 +12,7 @@ private:
 public:
     explicit SocketIO(int socket);
 
-    void write(std::string) override;
+    void send(std::string) override;
 
     std::string read() override;
 

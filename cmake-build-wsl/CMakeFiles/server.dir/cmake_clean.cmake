@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/server.dir/server.cpp.o"
+  "CMakeFiles/server.dir/server/server.cpp.o"
   "CMakeFiles/server.dir/x/Knn.cpp.o"
   "CMakeFiles/server.dir/x/distanceN.cpp.o"
   "CMakeFiles/server.dir/x/flower.cpp.o"

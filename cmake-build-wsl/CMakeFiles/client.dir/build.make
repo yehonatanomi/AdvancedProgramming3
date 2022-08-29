@@ -77,18 +77,18 @@ include CMakeFiles/client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/client.dir/flags.make
 
-CMakeFiles/client.dir/client.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/client.cpp.o: ../client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/client.cpp.o -c /mnt/c/yoniP/AdvancedProgramming3/client.cpp
+CMakeFiles/client.dir/client/client.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/client/client.cpp.o: ../client/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/client/client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/client/client.cpp.o -c /mnt/c/yoniP/AdvancedProgramming3/client/client.cpp
 
-CMakeFiles/client.dir/client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/yoniP/AdvancedProgramming3/client.cpp > CMakeFiles/client.dir/client.cpp.i
+CMakeFiles/client.dir/client/client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/client/client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/yoniP/AdvancedProgramming3/client/client.cpp > CMakeFiles/client.dir/client/client.cpp.i
 
-CMakeFiles/client.dir/client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/yoniP/AdvancedProgramming3/client.cpp -o CMakeFiles/client.dir/client.cpp.s
+CMakeFiles/client.dir/client/client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/client/client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/yoniP/AdvancedProgramming3/client/client.cpp -o CMakeFiles/client.dir/client/client.cpp.s
 
 CMakeFiles/client.dir/x/distanceN.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/x/distanceN.cpp.o: ../x/distanceN.cpp
@@ -183,7 +183,7 @@ CMakeFiles/client.dir/StandardIO.cpp.s: cmake_force
 
 # Object files for target client
 client_OBJECTS = \
-"CMakeFiles/client.dir/client.cpp.o" \
+"CMakeFiles/client.dir/client/client.cpp.o" \
 "CMakeFiles/client.dir/x/distanceN.cpp.o" \
 "CMakeFiles/client.dir/x/flower.cpp.o" \
 "CMakeFiles/client.dir/x/Knn.cpp.o" \
@@ -195,7 +195,7 @@ client_OBJECTS = \
 # External object files for target client
 client_EXTERNAL_OBJECTS =
 
-client: CMakeFiles/client.dir/client.cpp.o
+client: CMakeFiles/client.dir/client/client.cpp.o
 client: CMakeFiles/client.dir/x/distanceN.cpp.o
 client: CMakeFiles/client.dir/x/flower.cpp.o
 client: CMakeFiles/client.dir/x/Knn.cpp.o

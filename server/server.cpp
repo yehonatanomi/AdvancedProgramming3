@@ -5,7 +5,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <string.h>
-#include "x/Knn.h"
+#include "Knn.h"
 string knnEuclidean(string s, string classifiedF,int k);
 int main() {
     list<flower> unclassified;

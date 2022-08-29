@@ -77,18 +77,18 @@ include CMakeFiles/server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/server.dir/flags.make
 
-CMakeFiles/server.dir/server.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/server.cpp.o: ../server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/server.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/server.cpp.o -c /mnt/c/yoniP/AdvancedProgramming3/server.cpp
+CMakeFiles/server.dir/server/server.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/server/server.cpp.o: ../server/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/server/server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/server/server.cpp.o -c /mnt/c/yoniP/AdvancedProgramming3/server/server.cpp
 
-CMakeFiles/server.dir/server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/yoniP/AdvancedProgramming3/server.cpp > CMakeFiles/server.dir/server.cpp.i
+CMakeFiles/server.dir/server/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/server/server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/yoniP/AdvancedProgramming3/server/server.cpp > CMakeFiles/server.dir/server/server.cpp.i
 
-CMakeFiles/server.dir/server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/yoniP/AdvancedProgramming3/server.cpp -o CMakeFiles/server.dir/server.cpp.s
+CMakeFiles/server.dir/server/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/server/server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/yoniP/AdvancedProgramming3/server/server.cpp -o CMakeFiles/server.dir/server/server.cpp.s
 
 CMakeFiles/server.dir/x/distanceN.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/x/distanceN.cpp.o: ../x/distanceN.cpp
@@ -144,7 +144,7 @@ CMakeFiles/server.dir/x/pointS.cpp.s: cmake_force
 
 # Object files for target server
 server_OBJECTS = \
-"CMakeFiles/server.dir/server.cpp.o" \
+"CMakeFiles/server.dir/server/server.cpp.o" \
 "CMakeFiles/server.dir/x/distanceN.cpp.o" \
 "CMakeFiles/server.dir/x/flower.cpp.o" \
 "CMakeFiles/server.dir/x/Knn.cpp.o" \
@@ -153,7 +153,7 @@ server_OBJECTS = \
 # External object files for target server
 server_EXTERNAL_OBJECTS =
 
-server: CMakeFiles/server.dir/server.cpp.o
+server: CMakeFiles/server.dir/server/server.cpp.o
 server: CMakeFiles/server.dir/x/distanceN.cpp.o
 server: CMakeFiles/server.dir/x/flower.cpp.o
 server: CMakeFiles/server.dir/x/Knn.cpp.o

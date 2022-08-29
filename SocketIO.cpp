@@ -9,7 +9,7 @@ std::string SocketIO::read() {
     return utils::recv(this->socket);
 }
 
-void SocketIO::write(std::string msg) {
+void SocketIO::send(std::string msg) {
     utils::send(this->socket, msg);
 }
 
