@@ -1,0 +1,4 @@
+/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/rebuild_cache.dir
+/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/edit_cache.dir
+/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/client.dir
+/mnt/c/yoniP/AdvancedProgramming3/cmake-build-wsl/CMakeFiles/server.dir

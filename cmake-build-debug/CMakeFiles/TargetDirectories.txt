@@ -1,0 +1,4 @@
+C:/yoniP/AdvancedProgramming3/cmake-build-debug/CMakeFiles/server.dir
+C:/yoniP/AdvancedProgramming3/cmake-build-debug/CMakeFiles/client.dir
+C:/yoniP/AdvancedProgramming3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/yoniP/AdvancedProgramming3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

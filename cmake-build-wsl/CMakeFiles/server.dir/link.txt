@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/server.dir/server.cpp.o CMakeFiles/server.dir/x/distanceN.cpp.o CMakeFiles/server.dir/x/flower.cpp.o CMakeFiles/server.dir/x/Knn.cpp.o CMakeFiles/server.dir/x/pointS.cpp.o  -o server 

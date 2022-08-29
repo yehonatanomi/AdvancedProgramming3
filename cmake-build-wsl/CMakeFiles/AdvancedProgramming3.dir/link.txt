@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/AdvancedProgramming3.dir/x/distanceN.cpp.o CMakeFiles/AdvancedProgramming3.dir/x/flower.cpp.o CMakeFiles/AdvancedProgramming3.dir/x/Knn.cpp.o CMakeFiles/AdvancedProgramming3.dir/x/pointS.cpp.o CMakeFiles/AdvancedProgramming3.dir/client.cpp.o CMakeFiles/AdvancedProgramming3.dir/server.cpp.o  -o AdvancedProgramming3 
