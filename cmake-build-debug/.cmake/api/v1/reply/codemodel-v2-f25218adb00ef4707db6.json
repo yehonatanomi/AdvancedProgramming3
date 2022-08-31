@@ -1,0 +1,120 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "client",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "server",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "server",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Testing"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Client",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Server",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Client::@b0c487aac068df482bf0",
+					"jsonFile" : "target-Client-Debug-93fc98605f8a944d6cf6.json",
+					"name" : "Client",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Server::@d19778d2e34a1e3ddfc0",
+					"jsonFile" : "target-Server-Debug-f94b5107487e6818f2de.json",
+					"name" : "Server",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug",
+		"source" : "/mnt/c/yoniP/AdvancedProgramming3.2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

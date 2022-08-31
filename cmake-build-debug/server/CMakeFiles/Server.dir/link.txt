@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Server.dir/main.cpp.o CMakeFiles/Server.dir/Iris.cpp.o CMakeFiles/Server.dir/__/tools.cpp.o CMakeFiles/Server.dir/TServer.cpp.o CMakeFiles/Server.dir/io/StandardIO.cpp.o CMakeFiles/Server.dir/io/SocketIO.cpp.o CMakeFiles/Server.dir/Matrix.cpp.o  -o Server  -lpthread 
