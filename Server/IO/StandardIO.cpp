@@ -7,6 +7,6 @@ std::string StandardIO::read() {
     return res;
 }
 
-void StandardIO::send(std::string string) {
+void StandardIO::write(std::string string) {
     std::cout << string << std::endl;
 }

@@ -1,12 +1,8 @@
-//
-// Created by yehonatan on 8/29/2022.
-//
-
-#include "Tserver.h"
+#include "TServer.h"
 #include <unistd.h>
 #include "cstring"
 
-Tserver::Tserver(in_addr_t ip, in_port_t port) : sockId(socket(AF_INET, SOCK_STREAM, 0)), from() {
+TServer::TServer(in_addr_t ip, in_port_t port) : sockId(socket(AF_INET, SOCK_STREAM, 0)), from() {
     //Initialize the socket and check it
     if (sockId < 0) {
         perror("error creating socket");
@@ -27,23 +23,23 @@ Tserver::Tserver(in_addr_t ip, in_port_t port) : sockId(socket(AF_INET, SOCK_STR
 
     memset(&tv, 0, sizeof(tv));
     // Timeout in seconds
-    tv.tv_sec = 270;
+    tv.tv_sec = 180;
 
     FD_ZERO(&readfds);
     FD_SET(sockId, &readfds);
 }
 
 
-int Tserver::accept() {
+int TServer::accept() {
     if (select(sockId + 1, &readfds, nullptr, nullptr, &tv) < 0) {
         perror("select error");
     }
-    // If a connection has been made to connect to the Server, and the Timeout hasn't passed yet
+    // If a connection has been made to connect to the server, and the Timeout hasn't passed yet
     if (FD_ISSET(sockId, &readfds)) {
         unsigned int addr_len = sizeof(this->from);
         int sock = ::accept(sockId, (struct sockaddr *) &from, &addr_len);
         if (sock < 0) {
-            perror("error accepting Client");
+            perror("error accepting client");
         }
         this->clientNum++;
         return sock;
@@ -51,16 +47,16 @@ int Tserver::accept() {
     return -1;
 }
 
-void Tserver::close() const {
+void TServer::close() const {
     //Close the socket
     ::close(this->sockId);
 
 }
 
-void Tserver::disconnectClient() {
+void TServer::disconnectClient() {
     this->clientNum--;
 }
 
-int Tserver::getClientNum() const {
+int TServer::getClientNum() const {
     return this->clientNum;
 }

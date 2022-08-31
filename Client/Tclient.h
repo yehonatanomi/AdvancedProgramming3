@@ -1,28 +1,24 @@
-//
-// Created by yehonatan on 8/29/2022.
-//
-
-#ifndef SERVER_CLIENT_H
-#define SERVER_CLIENT_H
-
+#ifndef CLIENT_TCPCLIENT_H
+#define CLIENT_TCPCLIENT_H
 
 #include <netinet/in.h>
 #include "string"
 
-class Tclient {
+class TClient {
 private:
     int sock;
     struct sockaddr_in sin;
 public:
-    void send(const std::string &string) const;
+    void send(const std::string &) const;
 
     std::string recv() const;
 
     void close() const;
 
-    Tclient(in_addr_t, in_port_t);
+    TClient(in_addr_t, in_port_t);
 
-    ~Tclient() = default;
+    ~TClient() = default;
 };
 
-#endif //SERVER_CLIENT_H
+
+#endif //CLIENT_TCPCLIENT_H

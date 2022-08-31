@@ -1,4 +1,5 @@
 #include "DefaultIO.h"
+#include "../TServer.h"
 #include "string"
 
 #ifndef TESTING_SOCKETIO_H
@@ -11,7 +12,7 @@ private:
 public:
     explicit SocketIO(int socket);
 
-    void send(std::string) override;
+    void write(std::string) override;
 
     std::string read() override;
 
@@ -20,4 +21,4 @@ public:
 };
 
 
-#endif
+#endif //TESTING_SOCKETIO_H

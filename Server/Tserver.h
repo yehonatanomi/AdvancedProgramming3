@@ -1,35 +1,30 @@
-//
-// Created by yehonatan on 8/29/2022.
-//
 #include <netinet/in.h>
 #include "string"
 
-#ifndef SERVER_SERVER_H
-#define SERVER_SERVER_H
+#ifndef CLIENT_TCPSERVER_H
+#define CLIENT_TCPSERVER_H
 
+class TServer {
+private:
+    int sockId;
+    int queueLen = 5;
+    int clientNum = 0;
+    struct sockaddr_in from;
+    fd_set readfds;
+    struct timeval tv;
+public:
+    TServer(in_addr_t ip, in_port_t port);
 
-class Tserver {
-    private:
-        int sockId;
-        int queueLen = 5;
-        int clientNum = 0;
-        struct sockaddr_in from;
-        fd_set readfds;
-        struct timeval tv;
-    public:
-        Tserver(in_addr_t ip, in_port_t port);
+    int accept();
 
-        int accept();
+    void close() const;
 
-        void close() const;
+    ~TServer() = default;
 
-        ~Tserver() = default;
+    void disconnectClient();
 
-        void disconnectClient();
-
-        int getClientNum() const;
-
+    int getClientNum() const;
 };
 
 
-#endif //SERVER_SERVER_H
+#endif //CLIENT_TCPSERVER_H

@@ -1,36 +1,33 @@
-
-#include "Tclient.h"
-#include "../tools.h"
 #include <string>
 #include <unistd.h>
 #include <cstring>
+#include "TClient.h"
+#include "../tools.h"
 
-
-void Tclient::send(const std::string &string) const {
-     tools::send(sock, string);
+void TClient::send(const std::string &string) const {
+    utils::send(sock, string);
 }
 
 
-std::string Tclient::recv() const {
-    return tools::recv(sock);
+std::string TClient::recv() const {
+    return utils::recv(sock);
 }
 
-void Tclient::close() const {
+void TClient::close() const {
     ::close(this->sock);
 }
 
-Tclient::Tclient(in_addr_t ip, in_port_t port) : sock(socket(AF_INET, SOCK_STREAM, 0)), sin() {
-    //Initialize the socket and check it
+TClient::TClient(in_addr_t ip, in_port_t port) : sock(socket(AF_INET, SOCK_STREAM, 0)), sin() {
     if (sock < 0) {
         perror("error creating socket");
     }
-    //Initialize the data structure
     memset(&sin, 0, sizeof(sin));
     sin.sin_family = AF_INET;
     sin.sin_addr.s_addr = ip;
     sin.sin_port = port;
-    //Connect to the Server
+    //Connect  the server
     if (connect(sock, (struct sockaddr *) &sin, sizeof(sin)) < 0) {
-        perror("error connecting to Server");
+        perror("error connecting to server");
     }
 }
+

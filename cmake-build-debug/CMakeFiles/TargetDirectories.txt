@@ -1,4 +1,8 @@
 /mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/CMakeFiles/client.dir
-/mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/CMakeFiles/server.dir
+/mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/client/CMakeFiles/rebuild_cache.dir
+/mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/client/CMakeFiles/edit_cache.dir
+/mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/client/CMakeFiles/Client.dir
+/mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/server/CMakeFiles/rebuild_cache.dir
+/mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/server/CMakeFiles/edit_cache.dir
+/mnt/c/yoniP/AdvancedProgramming3.2/cmake-build-debug/server/CMakeFiles/Server.dir
