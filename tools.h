@@ -1,15 +1,10 @@
-//
-// Created by yehonatan on 8/29/2022.
-//
+#ifndef AP1_UTILS_H
+#define AP1_UTILS_H
 
-#ifndef SERVER_TOOLS_H
-#define SERVER_TOOLS_H
+#include "vector"
+#include "string"
 
-
-#include <vector>
-#include <string>
-
-namespace tools {
+namespace utils {
     std::string readFile(const std::string &);
 
     std::vector<std::vector<std::string>> readCSV(const std::string &);
@@ -22,6 +17,4 @@ namespace tools {
 
     void send(int, const std::string &);
 }
-
-
-#endif //SERVER_TOOLS_H
+#endif //AP1_UTILS_H

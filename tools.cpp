@@ -1,33 +1,32 @@
-//
-// Created by yehonatan on 8/29/2022.
-//
-
-#include "tools.h"
 #include <fstream>
 #include <sstream>
+#include "tools.h"
 #include <netinet/in.h>
 #include <cstring>
 #include <regex>
 
 using namespace std;
-namespace tools {
-    string readFile(const string &path) {
-        ifstream fin(path);
-        if (!fin.is_open()) throw runtime_error("file not  open");
+
+namespace utils {
+    string readFile(const  string &path) {
+       ifstream fin(path);
+        if (!fin.is_open()) throw  runtime_error("Could not open file");
+
         stringstream out;
         out << fin.rdbuf();
         return out.str();
     }
 
+    // Read a csv file and return a vector of its lines
+     vector< vector< string>> readCSV(const std::string &path) {
+         string csv = readFile(path);
 
-    vector<vector<string>> readCSV(const std::string &path) {
-        string csv = readFile(path);
-        vector<vector<string>> data;
+         vector< vector< string>> data;
 
         for (const auto &line: split(csv, '\n')) {
-            stringstream ss(line);
+             stringstream ss(line);
 
-            vector<string> row = split(line, ',');
+             vector< string> row = split(line, ',');
             if (!row.empty())
                 data.push_back(row);
         }
@@ -35,21 +34,27 @@ namespace tools {
         return data;
     }
 
-    vector<string> split(const string &s, const char c) {
-        stringstream ss(s);
-        string cell;
+    // Write to a csv file
+    void writeFile(const  string &path, const  string &content) {
+        ofstream fout(path);
+        fout << content;
+    }
 
-        vector<string> v;
-        while (getline(ss, cell, c)) {
+    vector< string> split(const  string &s, const char c) {
+       stringstream ss(s);
+         string cell;
+
+         vector< string> v;
+        while ( getline(ss, cell, c)) {
             v.push_back(cell);
         }
         return v;
     }
 
     //Receive from the socket
-    string recv(int sock) {
-        string msg;
-        string ending = "<end>";
+     string recv(int sock) {
+         string msg;
+         string ending = "<end>";
         //Read until ending is detected
         char buffer[1];
         while (!std::equal(ending.rbegin(), ending.rend(), msg.rbegin())) {
@@ -65,10 +70,10 @@ namespace tools {
 
     void send(int sock, const std::string &string) {
         std::string msg = string + "<end>";
-
+        //Send the string through the socket
         size_t sent_bytes = ::send(sock, msg.c_str(), strlen(msg.c_str()), 0);
         if (sent_bytes < 0) {
-            perror("error sending to Client");
+            perror("error sending to client");
         }
     }
 }
