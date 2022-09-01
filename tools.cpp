@@ -8,6 +8,7 @@
 using namespace std;
 
 namespace utils {
+    //
     string readFile(const  string &path) {
        ifstream fin(path);
         if (!fin.is_open()) throw  runtime_error("Could not open file");
@@ -16,7 +17,7 @@ namespace utils {
         out << fin.rdbuf();
         return out.str();
     }
-
+    // by alon
     // Read a csv file and return a vector of its lines
      vector< vector< string>> readCSV(const std::string &path) {
          string csv = readFile(path);
@@ -51,7 +52,7 @@ namespace utils {
         return v;
     }
 
-    //Receive from the socket
+
      string recv(int sock) {
          string msg;
          string ending = "<end>";
@@ -67,7 +68,7 @@ namespace utils {
         }
         return msg.substr(0, msg.length() - 5);
     }
-
+     // by alon
     void send(int sock, const std::string &string) {
         std::string msg = string + "<end>";
         //Send the string through the socket

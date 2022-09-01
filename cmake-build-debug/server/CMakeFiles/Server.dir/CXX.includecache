@@ -34,16 +34,6 @@ DefaultIO.h
 string
 /mnt/c/yoniP/AdvancedProgramming3.2/server/IO/string
 
-/mnt/c/yoniP/AdvancedProgramming3.2/server/Iris.cpp
-Iris.h
-/mnt/c/yoniP/AdvancedProgramming3.2/server/Iris.h
-stdexcept
-/mnt/c/yoniP/AdvancedProgramming3.2/server/stdexcept
-vector
-/mnt/c/yoniP/AdvancedProgramming3.2/server/vector
-../tools.h
-/mnt/c/yoniP/AdvancedProgramming3.2/tools.h
-
 /mnt/c/yoniP/AdvancedProgramming3.2/server/Iris.h
 string
 -
@@ -71,10 +61,6 @@ string
 /mnt/c/yoniP/AdvancedProgramming3.2/server/string
 metrics/EuclideanDistance.h
 /mnt/c/yoniP/AdvancedProgramming3.2/server/metrics/EuclideanDistance.h
-
-/mnt/c/yoniP/AdvancedProgramming3.2/server/Matrix.cpp
-Matrix.h
-/mnt/c/yoniP/AdvancedProgramming3.2/server/Matrix.h
 
 /mnt/c/yoniP/AdvancedProgramming3.2/server/Matrix.h
 vector

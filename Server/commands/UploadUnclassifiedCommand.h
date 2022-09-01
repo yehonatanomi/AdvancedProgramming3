@@ -15,14 +15,14 @@ public:
         this->getIO()->write("Please upload your local train csv file");
         std::string input = this->getIO()->read();
         if (input.empty()) {
-            this->getIO()->write("Invalid file 1");
+            this->getIO()->write("Invalid file ");
             return;
         }
         try {
             this->getData()->setTrain(stringToIrisVector(input, true));
         }
         catch (std::exception &e) {
-            this->getIO()->write("Invalid file 2");
+            this->getIO()->write("Invalid file ");
             return;
         }
         this->getIO()->write("Upload Complete.");
