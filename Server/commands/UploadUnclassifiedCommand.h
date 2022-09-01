@@ -19,7 +19,6 @@ public:
             return;
         }
         try {
-            std::cout<<input<<std::endl;
             this->getData()->setTrain(stringToIrisVector(input, true));
         }
         catch (std::exception &e) {
